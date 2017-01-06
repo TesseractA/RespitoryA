@@ -1,0 +1,29 @@
+{
+  "context": "client",
+  "identifier": "Poseidon's Trident Map Pack",
+  "display_name": "Poseidon's Trident Map Pack",
+  "description": "A series of maps and different map types. Be sure to check the forums. Also, the user who created these maps is now renamed to .+.",
+  "author": "TesseractA",
+  "version": "1.1.0",
+  "build": "99377",
+  "date": "2017/01/04",
+  "signature": "not yet implemented",
+  "forum": "https://forums.uberent.com/threads/poseidons-trident-map-pack.69030/",
+  "category": [
+  "in-game",
+  "ui"
+  ],
+  "priority": 500,
+  "enabled": true,
+  "scenes": {
+  "live_game": [
+  "coui://ui/mods/rCommanderHP/rCommanderHP.css",
+  ],
+  "load_planet": [
+  "coui://ui/mods/pack/maplist.js"
+  ],
+  },
+  "dependencies": [
+  "com.pa.conundrum.cShareSystems"
+  ]
+}
